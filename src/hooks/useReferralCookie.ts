@@ -55,7 +55,7 @@ export type UseReferralCookieResult = {
 
 /**
  * Lê `referral_id` da query na home e define cookie para `.agottani.dev`
- * quando o site roda sob agottani.dev (inclui app.agottani.dev).
+ * quando o site roda sob agottani.dev (inclui auth.agottani.dev).
  * Em localhost não usa Domain (cookie só vale na origem atual).
  */
 export function useReferralCookie(
